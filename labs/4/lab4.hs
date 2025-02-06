@@ -72,3 +72,6 @@ myfilter _ [] = []
 myfilter f (xs : x)
     | f xs = xs : myfilter f x 
     | otherwise = myfilter f x
+
+-- extra
+-- to do
